@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+:root {
+  --font-figtree: "Figtree", sans-serif;
+
+
+  /* BatZone brand */
+  --brand-pink: #2352ea;
+  --hero-pink: #1639e8;
+  --brand-pink-hover: #154cd8;
+  --ink: #0F1A2A;
+  --nav-text: #4B4B57;
+}
+
+/* @theme {
+  --font-ss: var(--font-geist-source-sans-3);
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-figtree);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  user-drag: none;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2352ea;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar {
+  background: white;
+  width: 8px;
+  height: 9px;
+}
+
+/* ================== Loader CSS ==================== */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border-radius: 50%;
+  background:
+    linear-gradient(0deg, rgb(255 255 255/50%) 30%, #000000 0 70%, rgb(255 255 255/100%) 0) 50%/8% 100%,
+    linear-gradient(90deg, rgb(255 255 255/25%) 30%, #000000 0 70%, rgb(255 255 255/75%) 0) 50%/100% 8%;
+  background-repeat: no-repeat;
+  animation: l23 1s infinite steps(12);
+}
+
+.loader::before,
+.loader::after {
+  content: "";
+  grid-area: 1/1;
+  border-radius: 50%;
+  background: inherit;
+  opacity: 0.915;
+  transform: rotate(30deg);
+}
+
+.loader::after {
+  opacity: 0.83;
+  transform: rotate(60deg);
+}
+
+@keyframes l23 {
+  100% {
+    transform: rotate(1turn)
+  }
+}
+
+/* ============= Loader CSS END ======================= */
+
+/* ============ DIALOG CSS ============ */
+dialog:-internal-dialog-in-top-layer {
+  position: fixed;
+  inset-block-start: 0px;
+  inset-block-end: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  user-select: text;
+  visibility: visible;
+  overflow: clip;
+}
