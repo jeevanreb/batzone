@@ -82,6 +82,10 @@ function PreloaderGsap({ children }) {
       yPercent: -100,
       duration: 0.8,
       ease: "power4.inOut",
+      onStart: () => {
+        window.__preloaderStartRevealed = true;
+        window.dispatchEvent(new CustomEvent("preloaderStartReveal"));
+      },
     });
   });
 

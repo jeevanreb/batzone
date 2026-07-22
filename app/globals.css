@@ -18,6 +18,8 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 body {
@@ -35,21 +37,10 @@ img {
   user-drag: none;
 }
 
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #2352ea;
-  border: 3px solid transparent;
-  border-radius: 9px;
-  background-clip: content-box;
-}
-
 ::-webkit-scrollbar {
-  background: white;
-  width: 8px;
-  height: 9px;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 /* ================== Loader CSS ==================== */
