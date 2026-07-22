@@ -9,7 +9,7 @@ function OurServicesSwiper({ imagesList, services }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className="mt-10 block lg:hidden">
+    <div className="mt-10 block lg:hidden overflow-x-hidden">
       <Swiper
         modules={[Autoplay]}
         autoplay={{

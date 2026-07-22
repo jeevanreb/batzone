@@ -26,7 +26,7 @@ function WhoWeAre() {
                             </span>
                             <h2
                                 id="who-we-are-title"
-                                className="text-white text-2xl sm:text-4xl md:text-3xl font-bold font-montserrat tracking-tight leading-tight"
+                                className="text-white text-2xl sm:text-4xl md:text-3xl font-bold tracking-tight leading-tight"
                             >
                                 Who We Are:
                             </h2>
@@ -34,7 +34,7 @@ function WhoWeAre() {
 
                         <div
                             id="who-we-are-description"
-                            className="flex flex-col gap-4 text-gray-400 font-proxima text-sm sm:text-base leading-relaxed md:leading-relaxed"
+                            className="flex flex-col gap-4 text-gray-400 text-sm sm:text-base leading-relaxed md:leading-relaxed"
                         >
                             <p>
 BatZone is proudly based in Hemmadi, dedicated to providing quality sports products and services. We offer all types of sports items, including cricket equipment, along with customized jerseys for tournaments, schools, clubs, and corporate teams. We also supply premium trophies, medals, and mementos to celebrate every sporting achievement.

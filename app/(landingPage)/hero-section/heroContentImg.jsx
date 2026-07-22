@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import PhoneImg from '@/assets/landingPage/hero-section/Phone.png'
+import PhoneImg from '@/assets/landingPage/hero-section/MOBILE.png'
+import Auction from '@/assets/landingPage/hero-section/AUCTION.png'
+import Bat from '@/assets/landingPage/hero-section/BAT.png'
+
 import SecureTransactionImg from '@/assets/landingPage/hero-section/Secure Transaction.png'
 import ApiFirstImg from '@/assets/landingPage/hero-section/API First.png'
 import PaymentGatewayImg from '@/assets/landingPage/hero-section/Payment Gateway.png'
@@ -14,7 +17,7 @@ const heroContentImg = () => {
     <div id="hero-showcase" className="relative w-full -mt-5 flex justify-center items-end min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]">
 
       {/* ── Phone ── */}
-      <div id="hero-phone" className="relative z-10 w-[200px] sm:w-[240px] md:w-[280px] lg:w-[300px]">
+      <div id="hero-phone" className="relative z-10 w-[270px] sm:w-[270px] md:w-[400px] lg:w-[450px]">
         <Image
           src={PhoneImg}
           alt="BatZone Transfer Screen"
@@ -26,10 +29,10 @@ const heroContentImg = () => {
       {/* ── Secure Transactions Card (Left Top) ── */}
       <div
         id="hero-card-secure"
-        className="absolute z-20 left-2 sm:left-[5%] md:left-[10%] lg:left-[12%] top-[20%] sm:top-[18%] lg:top-[15%] w-[140px] sm:w-[170px] md:w-[200px] lg:w-[260px]"
+        className="absolute z-20 left-2 sm:left-[5%] md:left-[10%] lg:left-[12%] top-[90%] sm:top-[90%] md:top-[20%] lg:top-[15%] w-[170px] sm:w-[170px] md:w-[200px] lg:w-[300px]"
       >
         <Image
-          src={EnterpriseReadyImg}
+          src={Auction}
           alt="Secure Transactions"
           className="w-full h-auto object-contain drop-shadow-lg"
         />
@@ -74,10 +77,10 @@ const heroContentImg = () => {
       {/* ── Enterprise Ready Card (Right Bottom) ── */}
       <div
         id="hero-card-enterprise"
-        className="absolute z-20 right-2 sm:right-[5%] md:right-[8%] lg:right-[9%] top-[40%] sm:top-[40%] lg:top-[40%] w-[150px] sm:w-[200px] md:w-[240px] lg:w-[350px] "
+        className="absolute z-20 right-2 sm:right-[5%] md:right-[8%] lg:right-[9%] top-[90%] sm:top-[90%] md:top-[60%] lg:top-[40%] w-[150px] sm:w-[150px] md:w-[200px] lg:w-[300px] "
       >
         <Image
-          src={EnterpriseReadyImg}
+          src={Bat}
           alt="Enterprise Ready"
           className="w-full h-auto object-contain drop-shadow-xl"
         />
