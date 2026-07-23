@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import PhoneImg from '@/assets/landingPage/hero-section/MOBILE.png'
+import PhoneImg from '@/assets/landingPage/hero-section/MOBILE3.png'
 import Auction from '@/assets/landingPage/hero-section/AUCTION.png'
 import Bat from '@/assets/landingPage/hero-section/BAT.png'
 

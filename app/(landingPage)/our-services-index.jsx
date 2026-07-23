@@ -1,10 +1,10 @@
 import OurServicesGsap from "./our-services/our-services-gsap"
 import OurServicesMarkup from "./our-services/our-services-markup"
 import visacard from "@/assets/landingPage/our-services/paymentGateway.png"
-import sports from "@/assets/landingPage/our-services/sports.png"
-import garage from "@/assets/landingPage/our-services/garage.png"
+import sports from "@/assets/landingPage/our-services/sports_equipment.png"
+import garage from "@/assets/landingPage/our-services/sports-garage.png"
 import upiCollection from '@/assets/landingPage/our-services/upiCollection.png'
-import bulkPayouts from '@/assets/landingPage/our-services/bulkPayouts.png'
+import ledwall from '@/assets/landingPage/our-services/led-wall.png'
 import virtualAccount from '@/assets/landingPage/our-services/virtualAccount.png'
 import bbps from '@/assets/landingPage/our-services/bbps.png'
 import paymentLinks from '@/assets/landingPage/our-services/paymentLinks.png'
@@ -26,9 +26,9 @@ const services = [
   },
   {
     no: '03',
-    title: 'Broken Bat Repair',
+    title: 'LED Wall Live Telecast',
     description:
-      'Repair and restore broken cricket bats with durable finishing and balance correction.',
+      'Enhance your tournament with professional LED wall live streaming, bringing every match, score, and highlight to spectators in real time.',
   },
   {
     no: '04',
@@ -63,24 +63,24 @@ const services = [
 ]
 
 const imagesList = [
-    sports,
-    garage,
-    bulkPayouts,
-    sports,
-    garage,
-    paymentLinks,
-    sports,
-    garage
+  sports,
+  garage,
+  ledwall,
+  sports,
+  garage,
+  paymentLinks,
+  sports,
+  garage
 ]
 
 function OurServicesIndex() {
-    return (
-        <>
-            <OurServicesGsap>
-                <OurServicesMarkup services={services} imagesList={imagesList} />
-            </OurServicesGsap>
-        </>
-    )
+  return (
+    <>
+      <OurServicesGsap>
+        <OurServicesMarkup services={services} imagesList={imagesList} />
+      </OurServicesGsap>
+    </>
+  )
 }
 
 export default OurServicesIndex

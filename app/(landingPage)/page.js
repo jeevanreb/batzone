@@ -7,6 +7,7 @@ import IndustriesIndex from "./industries-index"
 import HearClientsIndex from "./hear-clients-index"
 import GetStarted from "./get-started"
 import WhoWeAre from "./who-we-are/who-we-are"
+import AmbassadorIndex from "./ambassador-index"
 import Contact from "./Contact/Contact"
 
 function LandingPage() {
@@ -15,6 +16,7 @@ function LandingPage() {
             <PreloaderIndex />
             <HeroSectionIndex />
             <WhoWeAre />
+            <AmbassadorIndex />
             {/* <WhatWeDoIndex /> */}
             {/* <IndustriesIndex /> */}
             <OurServicesIndex />
