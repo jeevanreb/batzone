@@ -1,5 +1,5 @@
 import MaxWidth from "@/components/MaxWidth";
-import garage from "@/assets/landingPage/our-services/sports-garage.png"
+import garage from "@/assets/garage/bt-garage.png"
 import Image from "next/image";
 
 export default function Craftmanship() {
@@ -14,19 +14,18 @@ export default function Craftmanship() {
             <div className="max-w-7xl mx-auto px-6 md:px-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="relative">
                     <div className="bg-[#003ac4]/5 absolute -inset-4 -rotate-2 rounded-xl z-0" />
-                    <div className="relative z-10 border-2 border-[#c4c5d8] overflow-hidden aspect-square">
-                        <Image
-                            className="object-cover object-center" // try object-top / object-bottom if the crop cuts the wrong part
-                            fill
-                            sizes="(min-width: 1024px) 500px, 90vw"
+                    <div className="relative z-10 border-2 border-[#c4c5d8] overflow-hidden bg-white shadow-sm">
+                        {/* <Image
+                            className="w-full h-auto object-contain"
                             alt="A master bat maker shaping the back profile of a premium Grade 1 English willow cricket bat in a sunlit garage workshop."
                             src={garage}
-                        />
-                        <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur p-4 flex justify-between items-center border border-[#003ac4] z-10">
-                            <div>
+                            sizes="(min-width: 1024px) 500px, 90vw"
+                        /> */}
+                        <div className="p-4 flex justify-between items-center border-t-2 border-[#003ac4] bg-white">
+                            {/* <div>
                                 <p className="text-xs font-bold uppercase text-[#003ac4]">Precision Shaping</p>
                                 <p className="text-xs text-[#1c1b1b]">Profile Modification Phase</p>
-                            </div>
+                            </div> */}
                             <div className="bg-[#003ac4] text-white px-3 py-1 text-xs font-bold">100% Manual</div>
                         </div>
                     </div>
