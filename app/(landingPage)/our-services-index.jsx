@@ -3,12 +3,12 @@ import OurServicesMarkup from "./our-services/our-services-markup"
 import visacard from "@/assets/landingPage/our-services/paymentGateway.png"
 import sports from "@/assets/landingPage/our-services/sports_equipment.png"
 import garage from "@/assets/landingPage/our-services/sports-garage.png"
-import upiCollection from '@/assets/landingPage/our-services/upiCollection.png'
+import livbid from '@/assets/landingPage/our-services/live-bid.png'
 import ledwall from '@/assets/landingPage/our-services/led-wall.png'
-import virtualAccount from '@/assets/landingPage/our-services/virtualAccount.png'
-import bbps from '@/assets/landingPage/our-services/bbps.png'
-import paymentLinks from '@/assets/landingPage/our-services/paymentLinks.png'
-import merchantOnboarding from '@/assets/landingPage/our-services/merchantOnboarding.png'
+import jersey from '@/assets/landingPage/our-services/cus-jersy.png'
+import trophy from '@/assets/landingPage/our-services/trophy-medal.png'
+import tournament from '@/assets/landingPage/our-services/tornament-man.png'
+import eventsetup from '@/assets/landingPage/our-services/event-setup.png'
 import apiBanking from '@/assets/landingPage/our-services/apiBanking.png'
 
 const services = [
@@ -66,11 +66,11 @@ const imagesList = [
   sports,
   garage,
   ledwall,
-  sports,
-  garage,
-  paymentLinks,
-  sports,
-  garage
+  jersey,
+  trophy,
+  livbid,
+  tournament,
+  eventsetup
 ]
 
 function OurServicesIndex() {

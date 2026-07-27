@@ -12,4 +12,4 @@ function HearClientsIndex() {
     )
 }
 
-export default HearClientsIndex
+export default HearClientsIndex;
