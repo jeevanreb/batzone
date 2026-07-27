@@ -4,7 +4,7 @@ import MaxWidth from "../MaxWidth";
 
 const QUICK_LINKS = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/" },
+  { name: "Garage", href: "/garage" },
   { name: "Products", href: "/" },
   { name: "Developers", href: "/" },
   { name: "Contact Us", href: "/" },
@@ -15,7 +15,7 @@ const RESOURCES = [
   { name: "Terms & Conditions", href: "/" },
   { name: "Privacy Policy", href: "/" },
   { name: "Blog", href: "/" },
-  { name: "Login", href: "/" },
+  // { name: "Login", href: "/" },
 ];
 
 const linkClass =
