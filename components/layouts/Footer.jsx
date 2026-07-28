@@ -5,7 +5,7 @@ import MaxWidth from "../MaxWidth";
 const QUICK_LINKS = [
   { name: "Home", href: "/" },
   { name: "Garage", href: "/garage" },
-  { name: "Products", href: "/" },
+  { name: "Jersey", href: "/jersey" },
   { name: "Developers", href: "/" },
   { name: "Contact Us", href: "/" },
 ];

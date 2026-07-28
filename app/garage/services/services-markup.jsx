@@ -55,7 +55,7 @@ export default function ServicesMarkup() {
                         <div
                             key={service.title}
                             id={`garage-service-card-${i}`}
-                            className="bg-white border border-slate-200 p-5 flex flex-col hover:border-blue-700 transition-colors group relative overflow-hidden"
+                            className="bg-white border border-slate-200 rounded-lg p-5 flex flex-col hover:border-blue-700 transition-colors group relative overflow-hidden"
                         >
                             <div className="absolute top-0 left-0 w-full h-1 bg-blue-700 scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
                             <service.icon
