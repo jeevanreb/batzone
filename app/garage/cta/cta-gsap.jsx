@@ -13,7 +13,7 @@ function CtaGsap({ children }) {
             scrollTrigger: {
                 trigger: "#garage-cta",
                 start: "top 78%",
-                toggleActions: "play none none none",
+                toggleActions: "play none none reverse",
             },
         });
 

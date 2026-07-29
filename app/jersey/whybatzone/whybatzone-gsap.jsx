@@ -13,7 +13,7 @@ function WhyBatzoneGsap({ children }) {
             scrollTrigger: {
                 trigger: "#jersey-why",
                 start: "top 72%",
-                toggleActions: "play none none none",
+                toggleActions: "play none none reverse",
             },
         });
 

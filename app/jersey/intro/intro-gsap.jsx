@@ -13,7 +13,7 @@ function IntroGsap({ children }) {
             scrollTrigger: {
                 trigger: "#jersey-intro",
                 start: "top 75%",
-                toggleActions: "play none none none",
+                toggleActions: "play none none reverse",
             },
         });
 

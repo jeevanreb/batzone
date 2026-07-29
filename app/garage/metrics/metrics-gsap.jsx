@@ -28,7 +28,7 @@ function MetricsGsap({ children }) {
                 scrollTrigger: {
                     trigger: "#garage-metrics",
                     start: "top 88%",
-                    toggleActions: "play none none none",
+                    toggleActions: "play none none reverse",
                 },
             }
         );

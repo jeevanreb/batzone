@@ -9,8 +9,8 @@ const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "Garage", href: "/garage" },
   { name: "Jersey", href: "/jersey" },
-  { name: "Developers", href: "/" },
-  { name: "Contact Us", href: "/" },
+  { name: "Tournament Event", href: "/tournament-event" },
+  { name: "Auction", href: "https://batzoneauctionmanagement.com/", target: "_blank" },
 ];
 
 const Header = () => {
@@ -53,6 +53,9 @@ const Header = () => {
               <li key={link.name}>
                 <Link
                   href={link.href}
+                  target={link.target}
+                  rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
+
                   className={`block rounded-full px-4 py-2 text-[15px] font-medium transition-colors duration-200 ${isActive(link.href)
                     ? "text-[var(--brand-pink)]"
                     : "text-[var(--nav-text)] hover:text-[var(--ink)]"

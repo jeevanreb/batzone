@@ -6,7 +6,7 @@ const QUICK_LINKS = [
   { name: "Home", href: "/" },
   { name: "Garage", href: "/garage" },
   { name: "Jersey", href: "/jersey" },
-  { name: "Developers", href: "/" },
+  { name: "Tournament Event", href: "/tournament-event" },
   { name: "Contact Us", href: "/" },
 ];
 

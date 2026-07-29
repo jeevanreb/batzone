@@ -21,7 +21,7 @@ function ServicesGsap({ children }) {
                 scrollTrigger: {
                     trigger: "#garage-services",
                     start: "top 80%",
-                    toggleActions: "play none none none",
+                    toggleActions: "play none none reverse",
                 },
             }
         );
@@ -42,7 +42,7 @@ function ServicesGsap({ children }) {
                 scrollTrigger: {
                     trigger: "#garage-services",
                     start: "top 68%",
-                    toggleActions: "play none none none",
+                    toggleActions: "play none none reverse",
                 },
             }
         );
