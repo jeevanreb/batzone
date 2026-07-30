@@ -1,6 +1,6 @@
 import MaxWidth from "@/components/MaxWidth";
 import { CheckCircle2 } from "lucide-react";
-import tour2 from "@/assets/tournament-event/tour2.jpg";
+import tour2 from "@/assets/tournament-event/tour22.png";
 import Image from "next/image";
 
 export default function LedWallMarkup() {

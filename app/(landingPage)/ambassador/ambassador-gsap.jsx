@@ -8,58 +8,72 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 function AmbassadorGsap({ children }) {
     useGSAP(() => {
-        // Premium Image Fade & Subtle Reveal (Opacity 0 -> 1, scale 0.95 -> 1)
-        gsap.from("#ambassador-image-container", {
-            opacity: 0,
-            scale: 0.95,
-            y: 25,
-            duration: 1.2,
-            ease: "power3.out",
+        // Main Section Entrance Timeline
+        const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: "#ambassador-card",
-                start: "top 80%",
-                end: "top 40%",
-                scrub: 1,
+                start: "top 78%",
+                toggleActions: "play none none reverse",
             },
         });
 
-        // Text elements animate smoothly from down to position (y: 40 -> 0, opacity: 0 -> 1)
-        const ambassadorTextElements = gsap.utils.toArray([
+        // Ambient background glow pulse
+        tl.fromTo(
+            ["#ambassador-bg-glow", "#ambassador-bg-glow-2"],
+            { opacity: 0, scale: 0.7 },
+            { opacity: 1, scale: 1, duration: 1.4, ease: "power2.out" },
+            0
+        );
+
+        // Ambassador Image: Smooth 3D scale and reveal
+        tl.fromTo(
+            "#ambassador-image-container",
+            { opacity: 0, scale: 0.94, y: 30 },
+            { opacity: 1, scale: 1, y: 0, duration: 1.0, ease: "power3.out" },
+            0.1
+        );
+
+        // Image badge pop-in
+        tl.fromTo(
+            "#ambassador-image-badge",
+            { opacity: 0, y: 20, scale: 0.95 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "back.out(1.5)" },
+            0.5
+        );
+
+        // Text elements smooth staggered reveal
+        const ambassadorTextElements = [
             "#ambassador-subtitle-wrapper",
             "#ambassador-title",
             "#ambassador-role",
             "#ambassador-bio-1",
             "#ambassador-bio-2"
-        ]);
+        ].filter(id => document.querySelector(id));
 
-        gsap.from(ambassadorTextElements, {
-            opacity: 0,
-            y: 40,
-            duration: 0.9,
-            ease: "power3.out",
-            stagger: 0.12,
-            scrollTrigger: {
-                trigger: "#ambassador-card",
-                start: "top 75%",
-                end: "top 40%",
-                scrub: 1,
-            },
-        });
+        tl.fromTo(
+            ambassadorTextElements,
+            { opacity: 0, y: 25 },
+            { opacity: 1, y: 0, duration: 0.75, ease: "power3.out", stagger: 0.12 },
+            0.3
+        );
 
-        // Review Card Scale Animation: scale 0 -> 1 (opacity 0 -> 1)
-        gsap.from("#ambassador-review-card", {
-            opacity: 0,
-            scale: 0,
-            transformOrigin: "center center",
-            duration: 1,
-            ease: "back.out(1.4)",
-            scrollTrigger: {
-                trigger: "#ambassador-review-card",
-                start: "top 92%",
-                end: "top 60%",
-                scrub: 1,
-            },
-        });
+        // Review Card: Premium Scale Entrance (Scale 0.94 -> 1 instead of abrupt scale 0)
+        gsap.fromTo(
+            "#ambassador-review-card",
+            { opacity: 0, scale: 0.94, y: 25 },
+            {
+                opacity: 1,
+                scale: 1,
+                y: 0,
+                duration: 0.85,
+                ease: "back.out(1.4)",
+                scrollTrigger: {
+                    trigger: "#ambassador-review-card",
+                    start: "top 85%",
+                    toggleActions: "play none none reverse",
+                },
+            }
+        );
     });
 
     return children;

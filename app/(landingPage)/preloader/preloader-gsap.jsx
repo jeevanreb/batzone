@@ -7,11 +7,24 @@ gsap.registerPlugin(useGSAP);
 
 function PreloaderGsap({ children }) {
   useGSAP(() => {
+    if (typeof window !== "undefined") {
+      if (sessionStorage.getItem("batzone_preloader_seen") === "true" || window.__hasPreloaded) {
+        gsap.set("#preloader-section-wrapper", { display: "none" });
+        window.__preloaderStartRevealed = true;
+        window.dispatchEvent(new CustomEvent("preloaderStartReveal"));
+        return;
+      }
+    }
+
     const progressObj = { value: 0 };
 
     const tl = gsap.timeline({
       onComplete: () => {
         gsap.set("#preloader-section-wrapper", { display: "none" });
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("batzone_preloader_seen", "true");
+          window.__hasPreloaded = true;
+        }
       },
     });
 
@@ -85,6 +98,10 @@ function PreloaderGsap({ children }) {
       onStart: () => {
         window.__preloaderStartRevealed = true;
         window.dispatchEvent(new CustomEvent("preloaderStartReveal"));
+        if (typeof window !== "undefined") {
+          sessionStorage.setItem("batzone_preloader_seen", "true");
+          window.__hasPreloaded = true;
+        }
       },
     });
   });

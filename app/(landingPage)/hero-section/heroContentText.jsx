@@ -18,10 +18,11 @@ const heroContentText = () => {
       </h1>
 
       {/* Sub-description */}
-      {/* <p id="hero-description" className="mt-4 sm:mt-5 text-sm sm:text-base max-w-lg lg:max-w-xl leading-relaxed ">
-          Accept payments, automate payouts, manage collections, and scale your
-          business with a secure, API-first financial infrastructure platform
-        </p> */}
+      <p id="hero-description" className="mt-4 sm:mt-5 text-sm sm:text-base max-w-xl lg:max-w-2xl leading-relaxed ">
+        From premium sports equipment and professional bat customization
+        to custom jerseys, live player auctions and complete tournament
+        management — everything under one roof.
+      </p>
 
       {/* CTA Buttons */}
       {/* <div id="hero-cta" className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 mt-6 sm:mt-8">

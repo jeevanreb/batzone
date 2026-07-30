@@ -7,8 +7,9 @@ function OurServicesMarkup({ imagesList, services }) {
     <MaxWidth id="our-services" className="bg-black  lg:h-screen">
       {/* Section heading */}
       <div id="our-services-head" className="mx-auto max-w-3xl text-center">
-        <p className="text-sm font-medium text-[#2352ea]">Our Services</p>
+        <p id="our-services-badge" className="text-sm font-medium text-[#2352ea]">Our Services</p>
         <h2
+          id="our-services-title"
           className="mt-3 bg-clip-text text-2xl font-semibold leading-tight text-transparent sm:text-3xl lg:text-[40px] lg:leading-[1.2]"
           style={{
             backgroundImage:
@@ -55,7 +56,7 @@ function OurServicesMarkup({ imagesList, services }) {
         </div>
 
         {/* Right: card (pinned on desktop) */}
-        <div id="our-services-card" className="relative w-full max-w-[378px] mx-auto aspect-[378/478] overflow-hidden rounded-3xl">
+        <div id="our-services-card" className="relative w-full max-w-[378px] mx-auto aspect-[378/478] overflow-hidden rounded-3xl transform-gpu shadow-2xl border border-white/10">
           {
             imagesList?.map((image, index) =>
               <Image
@@ -66,7 +67,7 @@ function OurServicesMarkup({ imagesList, services }) {
                 width={378}
                 height={478}
                 priority
-                className={`w-full h-full object-cover select-none absolute inset-0 ${index === 0 ? 'z-50' : 'z-0 opacity-0'}`}
+                className={`w-full h-full object-cover select-none absolute inset-0 transform-gpu ${index === 0 ? 'z-50' : 'z-0 opacity-0'}`}
               />
             )
           }

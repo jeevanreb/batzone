@@ -7,6 +7,9 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
+if (typeof window !== "undefined") {
+  ScrollTrigger.config({ ignoreMobileResize: true });
+}
 
 export default function LenisWrapper({ children }) {
   useEffect(() => {
@@ -24,7 +27,7 @@ export default function LenisWrapper({ children }) {
     };
     requestAnimationFrame(raf);
 
-    lenis.on('scroll', ScrollTrigger.update)
+    lenis.on('scroll', ScrollTrigger.update);
 
     return () => {
       lenis.destroy();
@@ -120,7 +123,7 @@ export default function LenisWrapper({ children }) {
     const preventPinch = (e) => {
       if (e.touches && e.touches.length > 1) e.preventDefault();
     };
-    document.addEventListener("touchmove", preventPinch, { passive: false });
+    document.addEventListener("touchmove", preventPinch, { passive: true });
 
     // 4️⃣ Disable double-tap zoom
     let lastTouchEnd = 0;

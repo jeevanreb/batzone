@@ -114,7 +114,7 @@ function AmbassadorMarkup() {
                     {/* Review / Testimonial Card with Scale Animation target */}
                     <div
                         id="ambassador-review-card"
-                        className="mt-2 rounded-2xl bg-zinc-900/90 border border-[#2352ea]/40 p-5 sm:p-6 shadow-xl relative overflow-hidden group hover:border-[#FFD700]/60 transition-colors duration-300"
+                        className="mt-2 rounded-2xl bg-zinc-900/90 border border-[#2352ea]/40 p-5 sm:p-6 shadow-xl relative overflow-hidden group hover:border-[#FFD700]/60 transition-colors duration-300 transform-gpu"
                     >
                         <div
                             id="ambassador-quote-icon"

@@ -2,7 +2,7 @@ import MaxWidth from "@/components/MaxWidth";
 import Header from "@/components/layouts/Header";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
-import heroimg from "@/assets/tournament-event/tour1.jpg";
+import heroimg from "@/assets/tournament-event/tour11.png";
 import HeroButtons from "./hero-buttons";
 
 export default function HeroMarkup() {
