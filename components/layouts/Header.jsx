@@ -9,8 +9,9 @@ const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "Garage", href: "/garage" },
   { name: "Jersey", href: "/jersey" },
-  { name: "Tournament Event", href: "/tournament-event" },
-  { name: "Auction", href: "https://batzoneauctionmanagement.com/", target: "_blank" },
+  { name: "Tournament", href: "/tournament-event" },
+  { name: "Trophies", href: "/trophies" },
+  // { name: "Auction", href: "https://batzoneauctionmanagement.com/", target: "_blank" },
 ];
 
 const Header = () => {
@@ -65,14 +66,14 @@ const Header = () => {
                 </Link>
               </li>
             ))}
-            {/* <li>
+            <li>
               <Link
-                href="/register"
-                className="ml-1 block rounded-full bg-[var(--brand-pink)] px-6 py-2.5 text-[15px] font-semibold text-white shadow-[0_6px_16px_rgba(229,26,110,0.35)] transition-colors duration-200 hover:bg-[var(--brand-pink-hover)]"
+                href="https://batzoneauctionmanagement.com/" target="_blank"
+                className="ml-1 block rounded-full bg-[#FCD400] px-6 py-2.5 text-[15px] font-semibold text-white  transition-colors duration-200 hover:bg-[#ffe044] "
               >
-                Register
+                Auction
               </Link>
-            </li> */}
+            </li>
           </ul>
         </nav>
 
@@ -81,7 +82,7 @@ const Header = () => {
           type="button"
           onClick={() => setOpen(true)}
           aria-label="Open menu"
-          className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-[var(--ink)] shadow-[0_6px_20px_rgba(229,26,110,0.12)] ring-1 ring-black/[0.05] lg:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-[var(--ink)]  ring-1 ring-black/[0.05] lg:hidden"
         >
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />

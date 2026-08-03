@@ -6,7 +6,7 @@ function OurServicesMarkup({ imagesList, services }) {
   return (
     <MaxWidth id="our-services" className="bg-black  lg:h-screen">
       {/* Section heading */}
-      <div id="our-services-head" className="mx-auto max-w-3xl text-center">
+      <div id="our-services-head" className="mx-auto max-w-4xl text-center">
         <p id="our-services-badge" className="text-sm font-medium text-[#2352ea]">Our Services</p>
         <h2
           id="our-services-title"

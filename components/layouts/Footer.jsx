@@ -6,8 +6,8 @@ const QUICK_LINKS = [
   { name: "Home", href: "/" },
   { name: "Garage", href: "/garage" },
   { name: "Jersey", href: "/jersey" },
-  { name: "Tournament Event", href: "/tournament-event" },
-  { name: "Contact Us", href: "/" },
+  { name: "Tournament", href: "/tournament-event" },
+  { name: "Auction", href: "https://batzoneauctionmanagement.com/", target: "_blank" },
 ];
 
 const RESOURCES = [
@@ -105,7 +105,8 @@ const Footer = () => {
             <ul className="mt-6 space-y-5">
               {QUICK_LINKS.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className={linkClass}>
+                  <Link  href={link.href}
+                  target={link.target} className={linkClass}>
                     {link.name}
                   </Link>
                 </li>
