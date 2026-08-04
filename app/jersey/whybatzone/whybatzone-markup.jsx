@@ -45,9 +45,8 @@ export default function WhyBatzoneMarkup() {
                         </span>
                     </div>
 
-                    <h2
+<h2
                         id="jersey-why-heading"
-                        style={{ fontFamily: "var(--font-oswald)" }}
                         className="text-2xl md:text-3xl font-semibold uppercase italic text-neutral-900 border-l-8 border-blue-700 pl-4 leading-tight"
                     >
                         Why Performance
@@ -100,8 +99,7 @@ export default function WhyBatzoneMarkup() {
                             className="bg-yellow-600 rounded-xl p-6 h-40 flex items-center justify-center"
                         >
                             <div className="text-center text-white">
-                                <div
-                                    style={{ fontFamily: "var(--font-oswald)" }}
+<div
                                     className="text-4xl font-semibold"
                                 >
                                     500+
@@ -120,8 +118,7 @@ export default function WhyBatzoneMarkup() {
                             className="bg-neutral-900 rounded-xl p-6 h-40 flex items-center justify-center"
                         >
                             <div className="text-center text-white">
-                                <div
-                                    style={{ fontFamily: "var(--font-oswald)" }}
+<div
                                     className="text-4xl font-semibold"
                                 >
                                     100%

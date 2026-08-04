@@ -18,25 +18,25 @@ export default function HeroMarkup() {
             <div className="relative z-10 w-full px-6 md:px-10 lg:px-16 max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12">
                 {/* Text content */}
                 <div className="order-2 lg:order-1 max-w-2xl text-center lg:text-left">
-                    <span
+<span
                         id="tournament-hero-badge"
-                        className="inline-block bg-[#FCD400] text-[#6E5C00] px-3 py-1 mb-4 font-['Inter'] text-xs font-bold uppercase tracking-widest rounded-sm"
+                        className="inline-block bg-[#FCD400] text-[#6E5C00] px-3 py-1 mb-4 text-xs font-bold uppercase tracking-widest rounded-sm"
                     >
                         Elite Sports Experiences
                     </span>
 
-                    <h1
+<h1
                         id="tournament-hero-heading"
-                        className="font-['Oswald'] uppercase italic leading-tight font-bold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
+                        className="uppercase leading-tight font-bold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
                     >
                         Bringing Your{" "}
                         <span className="text-[#003AC4]">Tournament</span> To Life
                         From Start To Finish
                     </h1>
 
-                    <p
+<p
                         id="tournament-hero-desc"
-                        className="font-['Inter'] text-neutral-500 text-base sm:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 mb-6 md:mb-8"
+                        className="text-neutral-500 text-base sm:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 mb-6 md:mb-8"
                     >
                         Experience world-class cricket tournament management. We
                         combine professional-grade technology with precision

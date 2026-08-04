@@ -59,19 +59,19 @@ export default function MedalMarkup() {
                 <div className="grid grid-cols-2 gap-4 md:gap-6">
                     <div
                         id="trophies-medals-visual-gold"
-                        className="relative flex items-center justify-center p-4 bg-white border border-[#e5e6ec] shadow-sm"
+                        className="relative flex items-center justify-center p-4"
                     >
                         <div className="w-full aspect-[4/5] flex items-center justify-center bg-[linear-gradient(160deg,#2b2400,#524700_60%,#e3c600)]">
                             {/* <span className="text-6xl sm:text-7xl">🥇</span> */}
-                            <Image src={gold} alt="Gold Medal" fill className="object-cover w-full" />
+                            <Image src={gold} alt="Gold Medal" fill className="object-cover w-full rounded-xl" />
                         </div>
                     </div>
                     <div
                         id="trophies-medals-visual-silver"
-                        className="relative flex items-center justify-center p-4 mt-8 bg-white border border-[#e5e6ec] shadow-sm"
+                        className="relative flex items-center justify-center p-4 mt-8"
                     >
                         <div className="w-full aspect-[4/5] flex items-center justify-center bg-[linear-gradient(160deg,#1c1c1c,#434655_60%,#c4c5d8)]">
-                                                        <Image src={silver} alt="silver Medal" fill className="object-cover w-full" />
+                                                        <Image src={silver} alt="silver Medal" fill className="object-cover w-full  rounded-xl " />
 
                         </div>
                     </div>

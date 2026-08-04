@@ -11,9 +11,9 @@ const QUICK_LINKS = [
 ];
 
 const RESOURCES = [
-  { name: "FAQ", href: "/" },
-  { name: "Terms & Conditions", href: "/" },
-  { name: "Privacy Policy", href: "/" },
+  // { name: "FAQ", href: "/" },
+  // { name: "Terms & Conditions", href: "/" },
+  // { name: "Privacy Policy", href: "/" },
   { name: "Blog", href: "/" },
   // { name: "Login", href: "/" },
 ];
@@ -83,10 +83,28 @@ const Footer = () => {
 
           {/* Contact + Address */}
           <div className="lg:col-span-3 lg:border-l lg:border-white/10 lg:pl-10">
-            <h3 className={headingClass}>Contact</h3>
-            <div className="mt-6 space-y-2 text-[15px] text-white/45">
-              <p>Mob: +91 7892735114</p>
-              <p>batzone99@gmail.com</p>
+<h3 className={headingClass}>Contact</h3>
+            <div className="mt-6 space-y-3 text-[15px] text-white/45">
+              <a
+                href="tel:+917892735114"
+                className="block transition-colors hover:text-[#FFD700]"
+              >
+                Mob: +91 7892735114
+              </a>
+              <a
+                href="https://wa.me/917892735114"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block transition-colors hover:text-[#FFD700]"
+              >
+                WhatsApp: +91 7892735114
+              </a>
+              <a
+                href="mailto:batzone99@gmail.com"
+                className="block transition-colors hover:text-[#FFD700]"
+              >
+                batzone99@gmail.com
+              </a>
             </div>
 
             <h3 className={`${headingClass} mt-10`}>Address</h3>

@@ -13,15 +13,15 @@ export default function CtaMarkup() {
                 </svg>
             </div>
             <div className="relative z-10 px-6 md:px-16 text-center max-w-5xl mx-auto">
-                <h2
+<h2
                     id="tournament-cta-heading"
-                    className="font-['Oswald'] text-3xl sm:text-4xl md:text-5xl lg:text-5xl leading-tight tracking-tight font-bold text-white uppercase mb-4 max-w-4xl mx-auto"
+                    className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl leading-tight tracking-tight font-bold text-white uppercase mb-4 max-w-4xl mx-auto"
                 >
                     One Partner for Your Entire Tournament
                 </h2>
                 <p
                     id="tournament-cta-desc"
-                    className="font-['Inter'] text-base sm:text-lg md:text-xl font-normal text-[#D9DDFF] mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed"
+                    className="text-base sm:text-lg md:text-xl font-normal text-[#D9DDFF] mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed"
                 >
                     From initial planning to the final trophy presentation, we
                     handle the complexity so you can focus on the game.

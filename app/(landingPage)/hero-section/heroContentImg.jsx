@@ -14,10 +14,10 @@ import EnterpriseReadyImg from '@/assets/landingPage/hero-section/hero2.png'
 
 const heroContentImg = () => {
   return (
-    <div id="hero-showcase" className="relative w-full -mt-5 flex justify-center items-end min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]">
+<div id="hero-showcase" className="relative w-full -mt-5 flex justify-center items-end min-h-[min(60vh,420px)] sm:min-h-[500px] lg:min-h-[600px]">
 
       {/* ── Phone ── */}
-      <div id="hero-phone" className="relative z-10 w-[270px] sm:w-[270px] md:w-[400px] lg:w-[450px]">
+      <div id="hero-phone" className="relative z-10 w-[min(60vw,270px)] sm:w-[270px] md:w-[400px] lg:w-[450px]">
         <Image
           src={PhoneImg}
           alt="BatZone Transfer Screen"
@@ -28,8 +28,8 @@ const heroContentImg = () => {
 
       {/* ── Secure Transactions Card (Left Top) ── */}
       <div
-        id="hero-card-secure"
-        className="absolute z-20 left-2 sm:left-[5%] md:left-[10%] lg:left-[12%] top-[90%] sm:top-[90%] md:top-[20%] lg:top-[15%] w-[170px] sm:w-[170px] md:w-[200px] lg:w-[300px]"
+id="hero-card-secure"
+        className="absolute z-20 left-2 sm:left-[5%] md:left-[10%] lg:left-[12%] top-[70%] sm:top-[90%] md:top-[20%] lg:top-[15%] w-[min(34vw,170px)] sm:w-[170px] md:w-[200px] lg:w-[300px]"
       >
         <Image
           src={Auction}
@@ -76,8 +76,8 @@ const heroContentImg = () => {
 
       {/* ── Enterprise Ready Card (Right Bottom) ── */}
       <div
-        id="hero-card-enterprise"
-        className="absolute z-20 right-2 sm:right-[5%] md:right-[8%] lg:right-[9%] top-[90%] sm:top-[90%] md:top-[60%] lg:top-[40%] w-[150px] sm:w-[150px] md:w-[200px] lg:w-[300px] "
+id="hero-card-enterprise"
+        className="absolute z-20 right-2 sm:right-[5%] md:right-[8%] lg:right-[9%] top-[70%] sm:top-[90%] md:top-[60%] lg:top-[40%] w-[min(30vw,150px)] sm:w-[150px] md:w-[200px] lg:w-[300px] "
       >
         <Image
           src={Bat}

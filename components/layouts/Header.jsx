@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full py-5 z-50 flex items-center justify-between gap-4 px-4 md:px-10 lg:px-16 ">
+      <header className="absolute top-0 left-0 w-full py-3 z-50 flex items-center justify-between gap-4 px-4 md:px-10 lg:px-16 ">
         {/* Logo */}
         <Link href="/" className="shrink-0" aria-label="BatZone home">
           <Image
@@ -43,7 +43,7 @@ const Header = () => {
             width={170}
             height={46}
             priority
-            className="h-9 w-auto object-contain sm:h-10"
+            className="h-14 w-auto object-contain md:h-14"
           />
         </Link>
 

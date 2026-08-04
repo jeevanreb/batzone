@@ -3,11 +3,11 @@ import { ArrowRight } from "lucide-react";
 import TrophyButtons from "./trophy-buttons";
 import crystal from "@/assets/trophies/glass.jpg";
 import champion from "@/assets/trophies/champion.jpg";
-import acrylic from "@/assets/trophies/acrylic.jpg";
+import acrylic from "@/assets/trophies/acrylic.png";
 import Image from "next/image";
 const TROPHIES = [
     {
-        icon: "🏆",
+        icon: "",
         title: "Crystal Vanguard Cup",
         desc: "Glass & Crystal construction with custom internal engraving. Ideal for State Championships.",
         tag: "CUSTOMIZABLE",
@@ -16,7 +16,7 @@ const TROPHIES = [
         badge: "NEW",
     },
     {
-        icon: "🏆",
+        icon: "",
         title: "Champion's Heirloom",
         desc: "Polished Metal on Mahogany. Massive scale for tournament victors and perennial league winners.",
         tag: "BEST SELLER",
@@ -25,7 +25,7 @@ const TROPHIES = [
         badge: null,
     },
     {
-        icon: "🔷",
+        icon: "",
         title: "Geometric Acrylic",
         desc: "Precision-cut Acrylic with fiber-optic style glowing edges. Lightweight and impact-resistant.",
         tag: "FIBER-GLASS",
@@ -54,7 +54,7 @@ export default function TrophyMarkup() {
                             🏆 Premium Trophies
                         </h2>
                     </div>
-                    <TrophyButtons />
+                    {/* <TrophyButtons /> */}
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -67,10 +67,10 @@ export default function TrophyMarkup() {
                             <div className="mb-6 relative aspect-square flex items-center justify-center overflow-hidden bg-[#f2f3f6]">
                                 <div
                                     id={`trophies-premium-icon-${i}`}
-                                    className="w-full aspect-square flex items-center justify-center"
+                                    className="relative w-full aspect-square flex items-center justify-center"
                                 >
                                     {/* <span className="text-7xl">{t.icon}</span> */}
-                                    <Image src={t.img} alt={t.title}  fill classNmae="object-cover w-full" />
+                                    <Image src={t.img} alt={t.title} fill className="object-cover" />
                                 </div>
                                 {t.badge && (
                                     <span className="absolute top-0 left-0 bg-[#2352ea] text-white text-[10px] px-3 py-1">
@@ -104,4 +104,3 @@ export default function TrophyMarkup() {
         </MaxWidth>
     );
 }
-

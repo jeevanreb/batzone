@@ -33,15 +33,15 @@ export default function VersatileMarkup() {
     return (
         <MaxWidth id="tournament-versatile" className="py-12 md:py-20 px-6 md:px-16 bg-[#F0EDED]">
             <div className="text-center mb-10 md:mb-12 max-w-7xl mx-auto">
-                <h2
+<h2
                     id="tournament-versatile-title"
-                    className="font-['Oswald'] text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] uppercase mb-3"
+                    className="text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] uppercase mb-3"
                 >
                     Versatile Stage Programs
                 </h2>
-                <p
+<p
                     id="tournament-versatile-desc"
-                    className="font-['Inter'] text-sm md:text-base text-[#434655] max-w-2xl mx-auto leading-relaxed"
+                    className="text-sm md:text-base text-[#434655] max-w-2xl mx-auto leading-relaxed"
                 >
                     Beyond the field, BatZone is your full-service partner for
                     world-class live entertainment and corporate stage productions.
@@ -65,7 +65,7 @@ export default function VersatileMarkup() {
                                 strokeWidth={1.5}
                             />
                         </div>
-                        <h5 className="font-['Oswald'] text-lg md:text-xl font-medium text-[#1C1B1B] uppercase mb-2">
+<h5 className="text-lg md:text-xl font-medium text-[#1C1B1B] uppercase mb-2">
                             {program.title}
                         </h5>
                         <p className="text-xs sm:text-sm text-[#434655] leading-relaxed">

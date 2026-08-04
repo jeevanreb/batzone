@@ -44,9 +44,9 @@ export default function CompleteMarkup() {
     return (
         <MaxWidth id="tournament-complete" className="py-12 md:py-20 bg-[#F6F3F2] px-6 md:px-16">
             <div className="text-center mb-10 md:mb-12 max-w-7xl mx-auto">
-                <h2
+<h2
                     id="tournament-complete-heading"
-                    className="font-['Oswald'] text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] uppercase mb-3"
+                    className="text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] uppercase mb-3"
                 >
                     Complete Tournament Management
                 </h2>
@@ -63,10 +63,10 @@ export default function CompleteMarkup() {
                         <div className="mb-4">
                             <card.icon className="text-[#003AC4] transition-transform duration-300 group-hover:scale-110" size={44} strokeWidth={1.5} />
                         </div>
-                        <h3 className="font-['Oswald'] text-xl sm:text-2xl font-medium text-[#1C1B1B] mb-2 uppercase">
+<h3 className="text-xl sm:text-2xl font-medium text-[#1C1B1B] mb-2 uppercase">
                             {card.title}
                         </h3>
-                        <p className="font-['Inter'] text-sm md:text-base leading-relaxed text-[#434655]">
+                        <p className="text-sm md:text-base leading-relaxed text-[#434655]">
                             {card.description}
                         </p>
                     </div>

@@ -8,15 +8,15 @@ export default function LedWallMarkup() {
         <MaxWidth id="tournament-ledwall" className="py-12 md:py-20 px-6 md:px-16 bg-[#FCF9F8]">
             <div className="grid lg:grid-cols-2 gap-10 md:gap-12 items-center max-w-7xl mx-auto">
                 <div id="tournament-ledwall-content">
-                    <h2
+<h2
                         id="tournament-ledwall-heading"
-                        className="font-['Oswald'] text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] mb-4 uppercase border-l-4 border-[#003AC4] pl-4"
+                        className="text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] mb-4 uppercase border-l-4 border-[#003AC4] pl-4"
                     >
                         Professional LED Wall & Live Telecast
                     </h2>
-                    <p
+<p
                         id="tournament-ledwall-desc"
-                        className="font-['Inter'] text-base md:text-lg font-normal text-[#434655] mb-6 leading-relaxed"
+                        className="text-base md:text-lg font-normal text-[#434655] mb-6 leading-relaxed"
                     >
                         Transform your local tournament into a professional broadcast
                         experience. Our high-definition LED setups provide
@@ -24,23 +24,23 @@ export default function LedWallMarkup() {
                         captivate the crowd and elevate the brand.
                     </p>
                     <ul id="tournament-ledwall-list" className="space-y-3">
-                        <li
+<li
                             id="tournament-ledwall-item-0"
-                            className="flex items-center gap-3 font-['Inter'] text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
+                            className="flex items-center gap-3 text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
                         >
                             <CheckCircle2 className="text-[#003AC4] shrink-0" size={20} />
                             ULTRA-BRIGHT 4K OUTDOOR DISPLAYS
                         </li>
-                        <li
+<li
                             id="tournament-ledwall-item-1"
-                            className="flex items-center gap-3 font-['Inter'] text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
+                            className="flex items-center gap-3 text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
                         >
                             <CheckCircle2 className="text-[#003AC4] shrink-0" size={20} />
                             REAL-TIME DATA INTEGRATION
                         </li>
-                        <li
+<li
                             id="tournament-ledwall-item-2"
-                            className="flex items-center gap-3 font-['Inter'] text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
+                            className="flex items-center gap-3 text-xs sm:text-sm tracking-wider font-semibold text-[#1C1B1B] uppercase"
                         >
                             <CheckCircle2 className="text-[#003AC4] shrink-0" size={20} />
                             MULTI-ANGLE REPLAY CAPABILITIES

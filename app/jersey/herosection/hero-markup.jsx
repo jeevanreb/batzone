@@ -25,10 +25,9 @@ export default function HeroMarkup() {
                         Pro-Performance Apparel
                     </span>
 
-                    <h1
+<h1
                         id="jersey-hero-heading"
-                        style={{ fontFamily: "var(--font-oswald)" }}
-                        className="uppercase italic leading-[1.1] font-semibold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
+                        className="uppercase leading-[1.1] font-semibold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
                     >
                         Wear Your Team.{" "}
                         Represent Your <span className="text-yellow-300">Identity.</span>

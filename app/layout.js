@@ -9,9 +9,56 @@ const figtree = Figtree({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://www.batzone.com";
+
 export const metadata = {
-  title: "Bat Zone",
-  description: "Product Page from Bat Zone",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "BatZone | Premium Sports Store, Cricket Bats, Custom Jerseys, Trophies & Tournament Management",
+    template: "%s | BatZone",
+  },
+  description:
+    "BatZone is a premium sports store based in Hemmadi. We offer cricket bat customization & restoration, custom jerseys, premium trophies, medals, and complete tournament event management.",
+  keywords: [
+    "BatZone",
+    "cricket bat customization",
+    "bat restoration",
+    "custom jerseys",
+    "sports trophies",
+    "medals",
+    "tournament management",
+    "cricket equipment",
+    "Hemmadi",
+    "sports store",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: SITE_URL,
+    siteName: "BatZone",
+    title: "BatZone | Premium Sports Store",
+    description:
+      "Cricket bat customization, custom jerseys, premium trophies, medals , tournament management & Auction from Hemmadi.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "BatZone",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BatZone | Premium Sports Store",
+    description:
+      "Cricket bat customization, custom jerseys, premium trophies, medals & tournament management.",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",

@@ -28,15 +28,15 @@ export default function WhyChooseMarkup() {
         <MaxWidth id="tournament-whychoose" className="py-12 md:py-20 px-6 md:px-16 bg-[#1C1B1B] text-white">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-12 gap-4 max-w-7xl mx-auto">
                 <div id="tournament-whychoose-header">
-                    <h2
+<h2
                         id="tournament-whychoose-title"
-                        className="font-['Oswald'] text-2xl sm:text-3xl md:text-4xl font-semibold uppercase mb-2"
+                        className="text-2xl sm:text-3xl md:text-4xl font-semibold uppercase mb-2"
                     >
                         Why Choose BatZone?
                     </h2>
-                    <p
+<p
                         id="tournament-whychoose-desc"
-                        className="text-[#E5E2E1] font-['Inter'] text-sm md:text-base max-w-xl"
+                        className="text-[#E5E2E1] text-sm md:text-base max-w-xl"
                     >
                         Setting the gold standard for athletic event management across
                         the globe.
@@ -61,10 +61,10 @@ export default function WhyChooseMarkup() {
                                 strokeWidth={1.5}
                             />
                         </div>
-                        <h4 className="font-['Oswald'] text-xl sm:text-2xl font-medium uppercase text-white">
+<h4 className="text-xl sm:text-2xl font-medium uppercase text-white">
                             {item.title}
                         </h4>
-                        <p className="text-[#E5E2E1] font-['Inter'] text-xs sm:text-sm leading-relaxed">
+                        <p className="text-[#E5E2E1] text-xs sm:text-sm leading-relaxed">
                             {item.description}
                         </p>
                     </div>

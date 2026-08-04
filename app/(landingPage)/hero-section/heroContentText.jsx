@@ -11,14 +11,16 @@ const heroContentText = () => {
       {/* Heading */}
       <h1
         id="hero-heading"
-        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-to-r from-[#FFD700] to-[#2352ea] bg-clip-text text-transparent"
-      >          Bat Zone
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight bg-gradient-to-r from-[#FFD700] to-[#2352ea] bg-clip-text text-transparent"
+      >          THE ULTIMATE
+CRICKET
+ECOSYSTEM
         {/* <br /> */}
         {/* <span className="text-[var(--hero-pink)]">Every Payment Journey.</span> */}
       </h1>
 
       {/* Sub-description */}
-      <p id="hero-description" className="mt-4 sm:mt-5 text-sm sm:text-base max-w-xl lg:max-w-2xl leading-relaxed ">
+      <p id="hero-description" className="mt-4 sm:mt-3 text-sm sm:text-base max-w-xl lg:max-w-2xl leading-relaxed ">
         From premium sports equipment and professional bat customization
         to custom jerseys, live player auctions and complete tournament
         management — everything under one roof.

@@ -18,9 +18,8 @@ export default function IntroMarkup() {
                         </span>
                     </div>
 
-                    <h2
+<h2
                         id="jersey-intro-heading"
-                        style={{ fontFamily: "var(--font-oswald)" }}
                         className="text-2xl md:text-3xl font-semibold uppercase text-neutral-900 leading-tight border-l-4 border-yellow-300 pl-4"
                     >
                         The Gold Standard in Sports Apparel

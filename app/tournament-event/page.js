@@ -6,6 +6,28 @@ import VersatileIndex from "./versatile-index";
 import WhyChooseIndex from "./whychoose-index";
 import FinalCtaIndex from "./finalcta-index";
 
+export const metadata = {
+  title: "Cricket Tournament Management & Event Services – BatZone",
+  description:
+    "End-to-end cricket tournament management including Auction, live scoring, LED walls, live telecast, stage programs, officials, ground operations and event entertainment.",
+  keywords: [
+    "tornament auction",
+    "tournament management",
+    "cricket tournament",
+    "event management",
+    "LED wall live telecast",
+    "live scoring",
+    "stage programs",
+    "sports event management",
+    "BatZone tournament",
+  ],
+  openGraph: {
+    title: "Cricket Tournament Management & Event Services – BatZone",
+    description:
+      "Complete cricket tournament management with live scoring, LED walls, live telecast and stage programs.",
+  },
+};
+
 export default function TournamentEventPage() {
     return (
         <div>

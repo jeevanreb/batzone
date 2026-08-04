@@ -31,7 +31,7 @@ export default function HeroMarkup() {
 
                     <h1
                         id="trophies-hero-heading"
-                        className="text-[2.6rem] leading-none sm:text-6xl md:text-7xl font-extrabold uppercase tracking-tight text-[#111318] mb-4 md:mb-5"
+                        className="text-[2.6rem] leading-none sm:text-6xl md:text-5xl font-extrabold uppercase tracking-tight text-[#111318] mb-4 md:mb-5"
                     >
                         Celebrate Every <br />
                         <span className="text-[#2352ea]">Victory</span> with <br />

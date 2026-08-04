@@ -10,7 +10,7 @@ export default function TrophyButtons() {
             id="trophies-premium-toggle"
             className="inline-flex p-1 bg-[#f2f3f6] border border-[#e5e6ec]"
         >
-            {["modern", "vintage"].map((m) => (
+            {["modern"].map((m) => (
                 <button
                     key={m}
                     onClick={() => setMode(m)}

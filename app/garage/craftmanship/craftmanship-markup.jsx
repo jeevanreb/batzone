@@ -68,7 +68,6 @@ export default function CraftmanshipMarkup() {
                 <div className="flex flex-col gap-4">
                     <h2
                         id="garage-craft-heading"
-                        style={{ fontFamily: "var(--font-oswald)" }}
                         className="uppercase font-semibold text-2xl md:text-3xl text-neutral-900 tracking-tight"
                     >
                         The Science of Craftsmanship
@@ -90,7 +89,6 @@ export default function CraftmanshipMarkup() {
                                     className="flex-shrink-0 w-12 h-12 bg-slate-100 flex items-center justify-center"
                                 >
                                     <span
-                                        style={{ fontFamily: "var(--font-oswald)" }}
                                         className="text-blue-700 font-semibold text-lg"
                                     >
                                         {pillar.number}

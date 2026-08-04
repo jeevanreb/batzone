@@ -8,7 +8,7 @@ import HeroSectionGsap from './hero-section/her-section-gsap'
 function HeroSectionIndex() {
   return (
     <HeroSectionGsap>
-      <MaxWidth header={true} fullRelative={true} className='overflow-hidden'>
+      <MaxWidth header={true} fullRelative={true} className='overflow-x-hidden min-h-[90vh]'>
         <Header />
 
         <HeroBgComponent />

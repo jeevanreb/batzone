@@ -24,10 +24,9 @@ export default function Hero() {
                         Pro-Performance Apparel
                     </span>
 
-                    <h1
+<h1
                         id="jersey-hero-heading"
-                        style={{ fontFamily: "var(--font-oswald)" }}
-                        className="uppercase italic leading-[1.1] font-semibold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
+                        className="uppercase leading-[1.1] font-semibold text-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
                     >
                         Wear Your Team.{" "}
                         Represent Your <span className="text-[#ffe16d]">Identity.</span>
@@ -46,9 +45,14 @@ export default function Hero() {
                         id="jersey-hero-cta"
                         className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-4"
                     >
-                        <button className="bg-[#003ac4] text-white text-sm font-bold px-10 py-4 uppercase rounded-lg hover:bg-[#2352ea] transition-all active:scale-95">
+<a
+                            href="https://wa.me/917892735114?text=Hi%2C%20I%27d%20like%20to%20customize%20a%20jersey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-[#003ac4] text-white text-sm font-bold px-10 py-4 uppercase rounded-lg hover:bg-[#2352ea] transition-all active:scale-95 inline-block text-center"
+                        >
                             Start Customizing
-                        </button>
+                        </a>
                     </div>
                 </div>
 

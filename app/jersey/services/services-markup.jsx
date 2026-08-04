@@ -50,9 +50,8 @@ export default function ServicesMarkup() {
                         >
                             Our Expertise
                         </span>
-                        <h2
+<h2
                             id="jersey-services-heading"
-                            style={{ fontFamily: "var(--font-oswald)" }}
                             className="text-2xl md:text-3xl font-semibold uppercase text-neutral-900 tracking-tight"
                         >
                             What We Offer
@@ -88,8 +87,7 @@ export default function ServicesMarkup() {
                                     Industry Leading
                                 </span>
                             </div>
-                            <h3
-                                style={{ fontFamily: "var(--font-oswald)" }}
+<h3
                                 className="text-2xl font-semibold uppercase text-neutral-900"
                             >
                                 Sublimation Printing
@@ -125,8 +123,7 @@ export default function ServicesMarkup() {
                         className="md:col-span-2 bg-blue-700 rounded-xl text-white p-6 flex flex-col justify-between group cursor-pointer overflow-hidden relative"
                     >
                         <div className="relative z-10">
-                            <h3
-                                style={{ fontFamily: "var(--font-oswald)" }}
+<h3
                                 className="text-2xl font-semibold uppercase mb-2"
                             >
                                 Bulk Order Solutions

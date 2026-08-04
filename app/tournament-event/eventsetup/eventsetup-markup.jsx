@@ -55,15 +55,15 @@ export default function EventSetupMarkup() {
                     />
                 </div>
                 <div className="order-1 lg:order-2">
-                    <h2
+<h2
                         id="tournament-eventsetup-heading"
-                        className="font-['Oswald'] text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] mb-4 uppercase"
+                        className="text-2xl sm:text-3xl md:text-4xl leading-tight font-semibold text-[#1C1B1B] mb-4 uppercase"
                     >
                         Precision Operations
                     </h2>
-                    <p
+<p
                         id="tournament-eventsetup-desc"
-                        className="font-['Inter'] text-base md:text-lg font-normal text-[#434655] mb-6 leading-relaxed"
+                        className="text-base md:text-lg font-normal text-[#434655] mb-6 leading-relaxed"
                     >
                         The secret to a flawless tournament lies in the &ldquo;behind
                         the scenes&rdquo; details. We take full ownership of the
@@ -84,7 +84,7 @@ export default function EventSetupMarkup() {
                                     <item.icon className="text-[#6E5C00]" size={24} />
                                 </div>
                                 <div>
-                                    <h4 className="font-['Inter'] text-xs sm:text-sm tracking-wider font-semibold uppercase text-[#1C1B1B]">
+<h4 className="text-xs sm:text-sm tracking-wider font-semibold uppercase text-[#1C1B1B]">
                                         {item.title}
                                     </h4>
                                     <p className="text-[#434655] text-xs sm:text-sm leading-relaxed">

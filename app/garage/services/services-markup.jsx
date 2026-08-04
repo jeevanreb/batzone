@@ -37,7 +37,6 @@ export default function ServicesMarkup() {
                 {/* Section heading */}
                 <div id="garage-services-head" className="mb-10">
                     <h2
-                        style={{ fontFamily: "var(--font-oswald)" }}
                         className="uppercase font-semibold text-2xl md:text-3xl text-neutral-900 tracking-tight mb-2"
                     >
                         Our Specialized Services

@@ -28,7 +28,6 @@ export default function HeroSectionMarkup() {
 
                         <h1
                             id="garage-hero-heading"
-                            style={{ fontFamily: "var(--font-oswald)" }}
                             className="uppercase leading-tight font-bold text-neutral-900 text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-tight mb-4 md:mb-5"
                         >
                             BatZone Garage –{" "}
@@ -74,7 +73,7 @@ export default function HeroSectionMarkup() {
                             id="garage-hero-bat"
                             src={garage}
                             alt="BatZone Garage – premium cricket bat"
-                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl"
+                            className="relative z-10 w-full h-auto object-contain drop-shadow-2xl rounded-lg"
                             priority
                         />
                     </div>

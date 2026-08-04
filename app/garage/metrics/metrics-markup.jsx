@@ -2,7 +2,7 @@ import MaxWidth from "@/components/MaxWidth";
 import { Wrench, Timer, BadgeCheck, Globe } from "lucide-react";
 
 const METRICS = [
-    { Icon: Wrench, label: "15+ Expert Artisans", id: "garage-metric-0" },
+    { Icon: Wrench, label: "Expert Artisans", id: "garage-metric-0" },
     { Icon: Timer, label: "48hr Fast Track Available", id: "garage-metric-1" },
     { Icon: BadgeCheck, label: "Professional Grade Certified", id: "garage-metric-2" },
     { Icon: Globe, label: "Global Shipping", id: "garage-metric-3" },

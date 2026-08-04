@@ -10,7 +10,6 @@ export default function CtaMarkup() {
             <div className="px-6 md:px-10 lg:px-16 text-center text-white">
                 <h2
                     id="garage-cta-heading"
-                    style={{ fontFamily: "var(--font-oswald)" }}
                     className="uppercase font-bold text-3xl md:text-4xl mb-4"
                 >
                     Ready to Elevate Your Game?
