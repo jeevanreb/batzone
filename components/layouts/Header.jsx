@@ -134,13 +134,13 @@ const Header = () => {
                 ))}
               </ul>
 
-              {/* <Link
-                href="/register"
+              <Link
+                href="https://batzoneauctionmanagement.com/" target="_blank"
                 onClick={() => setOpen(false)}
-                className="mt-6 block rounded-full bg-[var(--brand-pink)] px-6 py-3 text-center text-base font-semibold text-white shadow-[0_6px_16px_rgba(229,26,110,0.35)] transition-colors hover:bg-[var(--brand-pink-hover)]"
+                className="mt-6 block rounded-full bg-[#FCD400] px-6 py-3 text-center text-base font-semibold text-white  transition-colors hover:bg-[#ffe044]"
               >
-                Register
-              </Link> */}
+                Auction
+              </Link>
             </div>
           </div>
         )}
