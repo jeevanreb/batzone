@@ -4,17 +4,15 @@ const heroContentText = () => {
   return (
     <div className="flex flex-col items-center text-center pt-24 sm:pt-28 lg:pt-20 px-4 sm:px-6">
       {/* Tagline */}
-      {/* <p id="hero-tagline" className="text-sm sm:text-base tracking-widest text-gray-500 mb-3 sm:mb-4">
-          Simple. Transparent. Secure.
-        </p> */}
+      <p id="hero-tagline" className="text-sm sm:text-base tracking-widest text-gray-500 mb-3 sm:mb-4">
+          The Ultimate Cricket Ecosystem
+        </p>
 
       {/* Heading */}
       <h1
         id="hero-heading"
         className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight bg-gradient-to-r from-[#FFD700] to-[#2352ea] bg-clip-text text-transparent"
-      >          THE ULTIMATE
-CRICKET
-ECOSYSTEM
+      >         BAT ZONE
         {/* <br /> */}
         {/* <span className="text-[var(--hero-pink)]">Every Payment Journey.</span> */}
       </h1>

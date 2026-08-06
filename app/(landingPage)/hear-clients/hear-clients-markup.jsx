@@ -56,19 +56,20 @@ function HearClientsMarkup() {
                 <div className="relative flex flex-col items-center px-4 py-12 text-center lg:py-16">
                     {/* Heading */}
                     <h2
-                        id="hc-head"
+                        id="hc-heading"
                         className="text-2xl font-semibold leading-tight text-[#2352ea] md:text-3xl lg:text-[34px]"
                     >
                         Hear from Our Clients
                     </h2>
 
                     <p
-                        id="hc-head"
+                        id="hc-subheading"
                         className="mt-4 max-w-[700px] text-sm leading-relaxed text-[#717171]"
                     >
-                        From startups to enterprises &mdash; businesses trust BatZone for
-                        faster settlements, secure payments, and seamless integration.
-                        Here&rsquo;s what our clients have to say about their experience.
+                        From bat customization to complete tournament management &mdash;
+                        cricketers and organizers across Karnataka trust BatZone for
+                        premium quality and professional service.
+                        Here&rsquo;s what our clients have to say.
                     </p>
 
                     {/* Cards */}
@@ -76,7 +77,7 @@ function HearClientsMarkup() {
                         <div className="bg-[#265aec26] h-[90%] w-full absolute top-24 blur-[100px] rounded-full transform -translate-y-1/2" />
                         {testimonials.map((t, index) => (
                             <article
-                                id="hc-card"
+                                id={`hc-card-${index}`}
                                 key={t.name}
                                 className={`${index === 1 && 'md:mt-10'} flex md:h-[440px] h-full sm:w-[40%] w-full shadow-xs md:max-w-[320px] flex-col rounded-2xl bg-white p-7 text-left lg:p-8`}
                             >

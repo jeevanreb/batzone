@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "End-to-end cricket tournament management including Auction, live scoring, LED walls, live telecast, stage programs, officials, ground operations and event entertainment.",
   keywords: [
-    "tornament auction",
+    "tournament auction",
     "tournament management",
     "cricket tournament",
     "event management",
@@ -25,6 +25,9 @@ export const metadata = {
     title: "Cricket Tournament Management & Event Services – BatZone",
     description:
       "Complete cricket tournament management with live scoring, LED walls, live telecast and stage programs.",
+  },
+  alternates: {
+    canonical: "https://www.batzone.com/tournament-event",
   },
 };
 

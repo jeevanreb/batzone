@@ -7,15 +7,16 @@ const QUICK_LINKS = [
   { name: "Garage", href: "/garage" },
   { name: "Jersey", href: "/jersey" },
   { name: "Tournament", href: "/tournament-event" },
+  { name: "Trophies", href: "/trophies" },
   { name: "Auction", href: "https://batzoneauctionmanagement.com/", target: "_blank" },
 ];
 
 const RESOURCES = [
-  // { name: "FAQ", href: "/" },
-  // { name: "Terms & Conditions", href: "/" },
-  // { name: "Privacy Policy", href: "/" },
-  { name: "Blog", href: "/" },
-  // { name: "Login", href: "/" },
+  // Links will be added here when actual pages are ready
+  { name: "Blog", href: "/blog" },
+  // { name: "FAQ", href: "/faq" },
+  // { name: "Terms & Conditions", href: "/terms" },
+  // { name: "Privacy Policy", href: "/privacy" },
 ];
 
 const linkClass =
@@ -50,40 +51,11 @@ const Footer = () => {
               BatZone is proudly based in Hemmadi, dedicated to providing quality sports products and services. We offer all types of sports items, including cricket equipment, along with customized jerseys for tournaments, schools, clubs, and corporate teams. We also supply premium trophies, medals, and mementos to celebrate every sporting achievemen
             </p>
 
-            {/* <div className="mt-8 flex items-center gap-3 ">
-              <PaymentChip label="Visa">
-                <span className="text-[13px] font-bold italic tracking-tight text-[#1A1F71]">
-                  VISA
-                </span>
-              </PaymentChip>
-              <PaymentChip label="Mastercard">
-                <span className="relative flex items-center">
-                  <span className="h-4 w-4 rounded-full bg-[#EB001B]" />
-                  <span className="-ml-1.5 h-4 w-4 rounded-full bg-[#F79E1B] opacity-90 mix-blend-multiply" />
-                </span>
-              </PaymentChip>
-              <PaymentChip label="American Express">
-                <span className="flex h-5 w-9 flex-col items-center justify-center rounded-[2px] bg-[#2E77BC] leading-none">
-                  <span className="text-[5px] font-bold tracking-tight text-white">
-                    AMERICAN
-                  </span>
-                  <span className="text-[5px] font-bold tracking-tight text-white">
-                    EXPRESS
-                  </span>
-                </span>
-              </PaymentChip>
-              <PaymentChip label="PayPal">
-                <span className="text-[13px] font-bold italic tracking-tight">
-                  <span className="text-[#003087]">Pay</span>
-                  <span className="text-[#009CDE]">Pal</span>
-                </span>
-              </PaymentChip>
-            </div> */}
           </div>
 
           {/* Contact + Address */}
           <div className="lg:col-span-3 lg:border-l lg:border-white/10 lg:pl-10">
-<h3 className={headingClass}>Contact</h3>
+            <h3 className={headingClass}>Contact</h3>
             <div className="mt-6 space-y-3 text-[15px] text-white/45">
               <a
                 href="tel:+917892735114"
@@ -123,8 +95,8 @@ const Footer = () => {
             <ul className="mt-6 space-y-5">
               {QUICK_LINKS.map((link) => (
                 <li key={link.name}>
-                  <Link  href={link.href}
-                  target={link.target} className={linkClass}>
+                  <Link href={link.href}
+                    target={link.target} className={linkClass}>
                     {link.name}
                   </Link>
                 </li>
@@ -132,32 +104,26 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
-          <div className="lg:col-span-3">
-            <h3 className={headingClass}>Resources</h3>
-            <ul className="mt-6 space-y-5">
-              {RESOURCES.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className={linkClass}>
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {/* Resources section will be populated when pages are ready */}
+          {RESOURCES.length > 0 && (
+            <div className="lg:col-span-3">
+              <h3 className={headingClass}>Resources</h3>
+              <ul className="mt-6 space-y-5">
+                {RESOURCES.map((link) => (
+                  <li key={link.name}>
+                    <Link href={link.href} className={linkClass}>
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </MaxWidth>
     </footer>
   );
 };
 
-const PaymentChip = ({ label, children }) => (
-  <span
-    aria-label={label}
-    className="flex h-9 w-14 items-center justify-center rounded-md bg-white shadow-sm"
-  >
-    {children}
-  </span>
-);
 
 export default Footer;

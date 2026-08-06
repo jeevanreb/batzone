@@ -24,6 +24,9 @@ export const metadata = {
     description:
       "Premium trophies, customized medals and special mementos for tournaments, schools, clubs and corporate events.",
   },
+  alternates: {
+    canonical: "https://www.batzone.com/trophies",
+  },
 };
 
 export default function TrophiesPage() {

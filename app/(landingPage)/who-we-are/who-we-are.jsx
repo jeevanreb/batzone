@@ -18,17 +18,17 @@ function WhoWeAre() {
                     {/* Left text column */}
                     <div className="w-full md:w-[50%] lg:w-[48%] flex flex-col gap-6 text-left">
                         <div id="who-we-are-headers" className="flex flex-col gap-1.5 md:gap-2">
-                            <span
+                            {/* <span
                                 id="who-we-are-subtitle"
                                 className="text-[#FFD700] text-lg md:text-3xl font-light tracking-wider"
                             >
                                 About Us
-                            </span>
+                            </span> */}
                             <h2
                                 id="who-we-are-title"
-                                className="text-white text-2xl sm:text-4xl md:text-3xl font-bold tracking-tight leading-tight"
+                                className="text-[#FFD700] text-2xl sm:text-4xl md:text-3xl font-bold tracking-tight leading-tight"
                             >
-                                Who We Are:
+                                About Us
                             </h2>
                         </div>
 
@@ -53,7 +53,7 @@ BatZone is proudly based in Hemmadi, dedicated to providing quality sports produ
                         <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] md:aspect-square lg:aspect-[4/3] max-w-[480px] lg:max-w-[550px]">
                             <Image
                                 src={whoweare}
-                                alt="Who We Are - Infynite Global"
+                                alt="Who We Are - BatZone Sports Store, Hemmadi"
                                 fill
                                 className="object-contain"
                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 550px"

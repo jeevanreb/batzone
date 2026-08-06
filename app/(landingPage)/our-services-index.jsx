@@ -1,6 +1,5 @@
 import OurServicesGsap from "./our-services/our-services-gsap"
 import OurServicesMarkup from "./our-services/our-services-markup"
-import visacard from "@/assets/landingPage/our-services/paymentGateway.png"
 import sports from "@/assets/landingPage/our-services/sports_equipment.png"
 import garage from "@/assets/landingPage/our-services/sports-garage.png"
 import livbid from '@/assets/landingPage/our-services/live-bid.png'
@@ -9,7 +8,6 @@ import jersey from '@/assets/landingPage/our-services/cus-jersy.png'
 import trophy from '@/assets/landingPage/our-services/trophy-medal.png'
 import tournament from '@/assets/landingPage/our-services/tornament-man.png'
 import eventsetup from '@/assets/landingPage/our-services/event-setup.png'
-import apiBanking from '@/assets/landingPage/our-services/apiBanking.png'
 
 const services = [
   {

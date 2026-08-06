@@ -4,12 +4,6 @@ import PhoneImg from '@/assets/landingPage/hero-section/MOBILE3.png'
 import Auction from '@/assets/landingPage/hero-section/AUCTION.png'
 import Bat from '@/assets/landingPage/hero-section/BAT.png'
 
-import SecureTransactionImg from '@/assets/landingPage/hero-section/Secure Transaction.png'
-import ApiFirstImg from '@/assets/landingPage/hero-section/API First.png'
-import PaymentGatewayImg from '@/assets/landingPage/hero-section/Payment Gateway.png'
-import FastIntegrationImg from '@/assets/landingPage/hero-section/Fast Integration.png'
-import EnterpriseReadyImg from '@/assets/landingPage/hero-section/hero2.png'
-
 
 
 const heroContentImg = () => {

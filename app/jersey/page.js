@@ -22,6 +22,9 @@ export const metadata = {
     description:
       "Premium custom jerseys with sublimation printing, personalized names, numbers and logos.",
   },
+  alternates: {
+    canonical: "https://www.batzone.com/jersey",
+  },
 };
 
 export default function JerseyPage() {

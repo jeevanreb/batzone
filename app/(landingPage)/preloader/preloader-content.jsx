@@ -37,12 +37,12 @@ function PreloaderContent() {
           </div>
 
           {/* Heading */}
-          <h1
+          <h2
             id="preloader-section-heading"
             className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-2"
           >
             Bat Zone
-          </h1>
+          </h2>
           <p
             id="preloader-section-subheading"
             className="text-sm sm:text-base font-medium text-slate-500 mb-8"

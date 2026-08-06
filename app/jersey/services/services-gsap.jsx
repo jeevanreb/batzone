@@ -17,18 +17,22 @@ function ServicesGsap({ children }) {
             },
         });
 
-        // Label fades in
+        // Label
         tl.fromTo(
             "#jersey-services-label",
-            { opacity: 0, y: -10 },
+            { opacity: 0, y: 30 },
             { opacity: 1, y: 0, duration: 0.5 },
             0
         );
 
-        // Heading clips up
+        // Heading
         tl.fromTo(
             "#jersey-services-heading",
-            { opacity: 0, y: 30, clipPath: "inset(0 0 100% 0)" },
+            {
+                opacity: 0,
+                y: 50,
+                clipPath: "inset(0 0 100% 0)",
+            },
             {
                 opacity: 1,
                 y: 0,
@@ -39,52 +43,98 @@ function ServicesGsap({ children }) {
             0.1
         );
 
-        // Accent line grows from left
+        // Line
         tl.fromTo(
             "#jersey-services-line",
-            { scaleX: 0, transformOrigin: "left" },
-            { scaleX: 1, duration: 0.6, ease: "power2.out" },
-            0.35
+            {
+                opacity: 0,
+                y: 20,
+                scaleX: 0,
+                transformOrigin: "left",
+            },
+            {
+                opacity: 1,
+                y: 0,
+                scaleX: 1,
+                duration: 0.6,
+                ease: "power2.out",
+            },
+            0.3
         );
 
-        // Featured card slides from left with scale
+        // Featured Card
         tl.fromTo(
             "#jersey-services-card-featured",
-            { opacity: 0, x: -60, scale: 0.96 },
-            { opacity: 1, x: 0, scale: 1, duration: 1, ease: "power3.out" },
+            {
+                opacity: 0,
+                y: 80,
+                scale: 0.96,
+            },
+            {
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                duration: 1,
+                ease: "power3.out",
+            },
             0.2
         );
 
-        // Badge pops in
+        // Badge
         tl.fromTo(
             "#jersey-services-badge",
-            { opacity: 0, scale: 0 },
-            { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(1.7)" },
+            {
+                opacity: 0,
+                y: 30,
+                scale: 0.8,
+            },
+            {
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                duration: 0.5,
+                ease: "back.out(1.7)",
+            },
             0.8
         );
 
-        // Small cards stagger from right
+        // Small Cards
         const smallCards = gsap.utils.toArray("[id^='jersey-services-card-']");
+
         tl.fromTo(
             smallCards,
-            { opacity: 0, x: 50, y: 20 },
+            {
+                opacity: 0,
+                y: 50,
+                scale: 0.96,
+            },
             {
                 opacity: 1,
-                x: 0,
                 y: 0,
-                duration: 0.6,
+                scale: 1,
+                duration: 0.7,
                 stagger: 0.12,
-                ease: "power2.out",
+                ease: "power3.out",
             },
-            0.35
+            0.4
         );
 
-        // CTA card slides up
+        // CTA
         tl.fromTo(
             "#jersey-services-cta-card",
-            { opacity: 0, y: 40, scale: 0.95 },
-            { opacity: 1, y: 0, scale: 1, duration: 0.7, ease: "back.out(1.3)" },
-            0.75
+            {
+                opacity: 0,
+                y: 60,
+                scale: 0.95,
+            },
+            {
+                opacity: 1,
+                y: 0,
+                scale: 1,
+                duration: 0.8,
+                ease: "back.out(1.3)",
+            },
+            0.9
         );
     });
 

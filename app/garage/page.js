@@ -22,6 +22,9 @@ export const metadata = {
     description:
       "Premium cricket bat customization, knocking-in, repairs, and complete restoration by master craftsmen.",
   },
+  alternates: {
+    canonical: "https://www.batzone.com/garage",
+  },
 };
 
 export default function GaragePage() {

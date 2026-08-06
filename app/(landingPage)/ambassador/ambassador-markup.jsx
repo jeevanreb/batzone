@@ -60,7 +60,7 @@ function AmbassadorMarkup() {
                                 </span>
                             </div>
                             <span className="bg-yellow-500/20 text-[#FFD700] text-xs px-3 py-1 rounded-full border border-yellow-500/30 font-semibold">
-                                Johnson Kundapura
+                                Jhonson Kundapura
                             </span>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ function AmbassadorMarkup() {
                         id="ambassador-role"
                         className="text-[#FFD700] text-sm sm:text-base font-semibold tracking-wide -mt-3"
                     >
-                        Professional Tennis Ball Cricketer | Johnson Kundapura
+                        Professional Tennis Ball Cricketer | Jhonson Kundapura
                     </p>
 
                     {/* Bio Section */}
@@ -104,7 +104,7 @@ function AmbassadorMarkup() {
                         className="flex flex-col gap-4 text-zinc-300 text-sm sm:text-base leading-relaxed"
                     >
                         <p id="ambassador-bio-1">
-                            Raja Saligrama is one of the most recognized names in Karnataka&apos;s tennis ball cricket circuit and proudly represents Johnson Kundapura. Known for his aggressive batting, match-winning performances, and consistent contributions in competitive tournaments, Raja has earned the respect of players and cricket enthusiasts alike. He has participated in numerous prestigious tennis ball cricket tournaments, showcasing his talent on some of the biggest stages in the sport.
+                            Raja Saligrama is one of the most recognized names in Karnataka&apos;s tennis ball cricket circuit and proudly represents Jhonson Kundapura. Known for his aggressive batting, match-winning performances, and consistent contributions in competitive tournaments, Raja has earned the respect of players and cricket enthusiasts alike. He has participated in numerous prestigious tennis ball cricket tournaments, showcasing his talent on some of the biggest stages in the sport.
                         </p>
                         <p id="ambassador-bio-2">
                             With years of experience and a passion for the game, Raja perfectly represents BatZone&apos;s commitment to quality, performance, and innovation. His dedication to cricket and pursuit of excellence make him the ideal face of the BatZone family, inspiring the next generation of cricketers.

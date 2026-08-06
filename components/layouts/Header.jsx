@@ -18,9 +18,6 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
-  console.log("0.1.0 version");
-
-
   // Lock body scroll while the mobile menu is open
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";

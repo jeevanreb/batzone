@@ -9,8 +9,8 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 function HearClientsGsap({ children }) {
   useGSAP(() => {
     const isMobile = window.innerWidth < 1024;
-    const heads = gsap.utils.toArray("#hc-head");
-    const cards = gsap.utils.toArray("#hc-card");
+    const heads = gsap.utils.toArray("#hc-heading, #hc-subheading");
+    const cards = gsap.utils.toArray("[id^='hc-card-']");
 
     if (isMobile) {
       gsap.fromTo(

@@ -4,7 +4,7 @@ import OurServicesSwiper from "./our-services-swiper";
 
 function OurServicesMarkup({ imagesList, services }) {
   return (
-<MaxWidth id="our-services" className="bg-black  lg:h-screen overflow-hidden">
+    <MaxWidth id="our-services" fullRelative={true} center={true} className="bg-black  lg:h-screen overflow-hidden">
       {/* Section heading */}
       <div id="our-services-head" className="mx-auto max-w-4xl text-center">
         <p id="our-services-badge" className="text-sm font-medium text-[#2352ea]">Our Services</p>

@@ -19,6 +19,9 @@ export const metadata = {
     "sports trophies medals",
     "cricket equipment store",
   ],
+  alternates: {
+    canonical: "https://www.batzone.com",
+  },
   openGraph: {
     title: "BatZone | Premium Sports Store in Hemmadi",
     description:
@@ -33,14 +36,9 @@ function LandingPage() {
             <HeroSectionIndex />
             <WhoWeAre />
             <AmbassadorIndex />
-            {/* <WhatWeDoIndex /> */}
-            {/* <IndustriesIndex /> */}
             <OurServicesIndex />
-            {/* <WhyBatZone /> */}
-            {/* <GetStarted /> */}
             <HearClientsIndex />
             <Contact />
-            {/* <HelpSectionIndex /> */}
         </>
     )
 }
