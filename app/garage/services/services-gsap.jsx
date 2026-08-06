@@ -21,7 +21,7 @@ function ServicesGsap({ children }) {
                 scrollTrigger: {
                     trigger: "#garage-services",
                     start: "top 80%",
-                    toggleActions: "play none none reverse",
+                    toggleActions: "play none none none",
                 },
             }
         );
@@ -41,8 +41,8 @@ function ServicesGsap({ children }) {
                 stagger: 0.07,
                 scrollTrigger: {
                     trigger: "#garage-services",
-                    start: "top 68%",
-                    toggleActions: "play none none reverse",
+                    start: "top 75%",
+                    toggleActions: "play none none none",
                 },
             }
         );
@@ -55,7 +55,7 @@ function ServicesGsap({ children }) {
                     boxShadow: "0 16px 40px -8px rgba(0,58,196,0.18)",
                     duration: 0.35,
                     ease: "power2.out",
-                    overwrite: true,
+                    overwrite: "auto",
                 });
             });
             card.addEventListener("mouseleave", () => {
@@ -64,7 +64,7 @@ function ServicesGsap({ children }) {
                     boxShadow: "0 0px 0px 0px rgba(0,58,196,0)",
                     duration: 0.4,
                     ease: "power2.out",
-                    overwrite: true,
+                    overwrite: "auto",
                 });
             });
         });
