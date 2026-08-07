@@ -1,4 +1,4 @@
-const SITE_URL = "https://www.batzone.com";
+const SITE_URL = "https://www.bat-zone.com";
 
 export default function robots() {
   return {

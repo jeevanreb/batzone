@@ -23,24 +23,24 @@ export const metadata = {
       "Premium custom jerseys with sublimation printing, personalized names, numbers and logos.",
   },
   alternates: {
-    canonical: "https://www.batzone.com/jersey",
+    canonical: "https://www.bat-zone.com/jersey",
   },
 };
 
 export default function JerseyPage() {
-    return (
-        <div>
-            {/* Hero Section */}
-            <HeroIndex />
+  return (
+    <div>
+      {/* Hero Section */}
+      <HeroIndex />
 
-            {/* Introduction Section */}
-            <IntroIndex />
+      {/* Introduction Section */}
+      <IntroIndex />
 
-            {/* Services Bento Grid */}
-            <ServicesIndex />
+      {/* Services Bento Grid */}
+      <ServicesIndex />
 
-            {/* Why Choose BatZone */}
-            <WhyBatzoneIndex />
-        </div>
-    );
+      {/* Why Choose BatZone */}
+      <WhyBatzoneIndex />
+    </div>
+  );
 }

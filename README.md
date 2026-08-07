@@ -100,16 +100,3 @@ To start the production server:
 ```bash
 npm run start
 ```
-
----
-
-## 📍 Contact & Address
-
-- **Address**: MD Complex, 1st Floor, Hemmadi – 576230
-- **Phone**: +91 7892735114
-- **WhatsApp**: [+91 7892735114](https://wa.me/917892735114)
-- **Email**: batzone99@gmail.com
-
----
-
-© 2026 BatZone. All rights reserved.

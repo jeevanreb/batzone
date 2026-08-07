@@ -25,31 +25,31 @@ export const metadata = {
       "Premium trophies, customized medals and special mementos for tournaments, schools, clubs and corporate events.",
   },
   alternates: {
-    canonical: "https://www.batzone.com/trophies",
+    canonical: "https://www.bat-zone.com/trophies",
   },
 };
 
 export default function TrophiesPage() {
-    return (
-        <div>
-            {/* Hero Section */}
-            <HeroIndex />
+  return (
+    <div>
+      {/* Hero Section */}
+      <HeroIndex />
 
-            {/* Premium Trophies */}
-            <PremiumTrophiesIndex />
+      {/* Premium Trophies */}
+      <PremiumTrophiesIndex />
 
-            {/* Customized Medals of Valor */}
-            <MedalsIndex />
+      {/* Customized Medals of Valor */}
+      <MedalsIndex />
 
-            {/* Mementos & Special Awards */}
-            <AwardsIndex />
+      {/* Mementos & Special Awards */}
+      <AwardsIndex />
 
-            {/* Why Choose BatZone? */}
-            <WhyChooseIndex />
+      {/* Why Choose BatZone? */}
+      <WhyChooseIndex />
 
-            {/* Final CTA */}
-            <CtaIndex />
-        </div>
-    );
+      {/* Final CTA */}
+      <CtaIndex />
+    </div>
+  );
 }
 

@@ -10,7 +10,7 @@ const figtree = Figtree({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://www.batzone.com";
+const SITE_URL = "https://www.bat-zone.com";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),

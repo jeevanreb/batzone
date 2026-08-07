@@ -27,33 +27,33 @@ export const metadata = {
       "Complete cricket tournament management with live scoring, LED walls, live telecast and stage programs.",
   },
   alternates: {
-    canonical: "https://www.batzone.com/tournament-event",
+    canonical: "https://www.bat-zone.com/tournament-event",
   },
 };
 
 export default function TournamentEventPage() {
-    return (
-        <div>
-            {/* Hero Section */}
-            <HeroIndex />
+  return (
+    <div>
+      {/* Hero Section */}
+      <HeroIndex />
 
-            {/* LED Wall Live Telecast Section */}
-            <LedWallIndex />
+      {/* LED Wall Live Telecast Section */}
+      <LedWallIndex />
 
-            {/* Complete Tournament Management Section */}
-            <CompleteTournamentIndex />
+      {/* Complete Tournament Management Section */}
+      <CompleteTournamentIndex />
 
-            {/* Event Setup & Operations */}
-            <EventSetupIndex />
+      {/* Event Setup & Operations */}
+      <EventSetupIndex />
 
-            {/* Versatile Stage Programs */}
-            <VersatileIndex />
+      {/* Versatile Stage Programs */}
+      <VersatileIndex />
 
-            {/* Why Choose BatZone? Section */}
-            <WhyChooseIndex />
+      {/* Why Choose BatZone? Section */}
+      <WhyChooseIndex />
 
-            {/* Final CTA */}
-            <FinalCtaIndex />
-        </div>
-    );
+      {/* Final CTA */}
+      <FinalCtaIndex />
+    </div>
+  );
 }

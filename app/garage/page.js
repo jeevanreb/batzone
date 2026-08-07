@@ -23,27 +23,27 @@ export const metadata = {
       "Premium cricket bat customization, knocking-in, repairs, and complete restoration by master craftsmen.",
   },
   alternates: {
-    canonical: "https://www.batzone.com/garage",
+    canonical: "https://www.bat-zone.com/garage",
   },
 };
 
 export default function GaragePage() {
-    return (
-        <div>
-            {/* Hero Section */}
-            <HeroSectionIndex />
+  return (
+    <div>
+      {/* Hero Section */}
+      <HeroSectionIndex />
 
-            {/* Metrics Bar */}
-            <MetricsIndex />
+      {/* Metrics Bar */}
+      <MetricsIndex />
 
-            {/* Services Bento Grid */}
-            <ServicesIndex />
+      {/* Services Bento Grid */}
+      <ServicesIndex />
 
-            {/* Craftsmanship Section */}
-            <CraftmanshipIndex />
+      {/* Craftsmanship Section */}
+      <CraftmanshipIndex />
 
-            {/* CTA Banner */}
-            <CtaIndex />
-        </div>
-    );
+      {/* CTA Banner */}
+      <CtaIndex />
+    </div>
+  );
 }

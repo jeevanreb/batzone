@@ -20,7 +20,7 @@ export const metadata = {
     "cricket equipment store",
   ],
   alternates: {
-    canonical: "https://www.batzone.com",
+    canonical: "https://www.bat-zone.com",
   },
   openGraph: {
     title: "BatZone | Premium Sports Store in Hemmadi",
@@ -30,17 +30,17 @@ export const metadata = {
 };
 
 function LandingPage() {
-    return (
-        <>
-            <PreloaderIndex />
-            <HeroSectionIndex />
-            <WhoWeAre />
-            <AmbassadorIndex />
-            <OurServicesIndex />
-            <HearClientsIndex />
-            <Contact />
-        </>
-    )
+  return (
+    <>
+      <PreloaderIndex />
+      <HeroSectionIndex />
+      <WhoWeAre />
+      <AmbassadorIndex />
+      <OurServicesIndex />
+      <HearClientsIndex />
+      <Contact />
+    </>
+  )
 }
 
 export default LandingPage
